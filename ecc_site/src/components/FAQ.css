@@ -1,0 +1,55 @@
+/* FAQ.css */
+.content {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.FAQ-section {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.question-wrapper {
+  background-color: rgba(60, 166, 146, 0.462); /* Shaded background for question */
+  border: 1px solid #ddd;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.question {
+  font-size: 1.2rem;
+  color: #333;
+  flex: 1;
+}
+
+.arrow {
+  font-size: 1.5rem;
+  transition: transform 0.3s;
+}
+
+.question.open .arrow {
+  transform: rotate(180deg);
+}
+
+.answer {
+  display: none;
+  margin-top: 1rem; /* Add some space above the answer */
+  margin-bottom: 1rem; /* Add spacing between answer and next question */
+}
+
+.answer.active {
+  display: block;
+}
+
+.answer-content {
+  background-color: rgba(60, 166, 146, 0.2); /*Lighter shade background for the answer.*/
+  color: #666;
+  border: 1px solid #ddd;
+  padding: 1rem;
+}
+

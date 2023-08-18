@@ -1,0 +1,34 @@
+/* NavBar.css */
+.custom-navbar {
+  background-color: rgba(60, 166, 146, 0.462);
+  color: rgb(255, 255, 255);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center the content horizontally */
+  padding: 1rem 0;
+}
+
+.custom-navbar .navbar-brand {
+  font-size: 1.8rem;
+  color: black;
+  text-decoration: none; /* Remove the underline */
+  display: block; /* Ensure the logo takes full width */
+}
+
+.custom-navbar .navbar-nav {
+  display: flex;
+  justify-content: center; /* Center the nav links horizontally */
+  list-style: none; /* Remove list bullets */
+  padding: 0; /* Remove default padding */
+}
+
+.custom-navbar .navbar-nav .nav-link {
+  color: black;
+  padding: 1rem;
+  transition: background-color 0.3s, border-radius 0.3s;
+  text-decoration: none; /* Remove the underline */
+}
+
+.custom-navbar .navbar-nav .nav-link:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 0.25rem;
+}
