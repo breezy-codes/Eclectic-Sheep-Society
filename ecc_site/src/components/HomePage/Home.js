@@ -42,6 +42,17 @@ const Home = () => {
   const yesPercentage = (yesVotes / totalVotes) * 100;
   const noPercentage = (noVotes / totalVotes) * 100;
 
+  // For the alcohol quiz on the page
+  const [quizAnswer, setQuizAnswer] = useState(null);
+  const [showQuizResult, setShowQuizResult] = useState(false);
+
+  const handleQuizAnswer = (selectedAnswer) => {
+    setQuizAnswer(selectedAnswer);
+    setShowQuizResult(true);
+  };
+
+  const correctAnswer = '9 to 10 Standard Drinks';
+
   return (
     <div className="home-content">
       <div className="question-box">
@@ -128,9 +139,49 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="info-div">
-        <h1>Information Section 1</h1>
-        <p>Placeholder text for information section 1.</p>
+      <div className="Responsible-Alcohol-Consumption">
+        <div className="Alcohol-Quiz">
+          <h2>How much alcohol consumption in a single week is safe?</h2>
+          <div className="quiz-options">
+            <div className={`quiz-option ${quizAnswer === 'none' ? 'selected' : ''}`} onClick={() => handleQuizAnswer('none')}>
+              None
+            </div>
+            <div className={`quiz-option ${quizAnswer === '1 to 3 Standard Drinks' ? 'selected' : ''}`} onClick={() => handleQuizAnswer('1 to 3 Standard Drinks')}>
+              1 to 3 Standard Drinks
+            </div>
+            <div className={`quiz-option ${quizAnswer === '4 to 5 Standard Drinks' ? 'selected' : ''}`} onClick={() => handleQuizAnswer('4 to 5 Standard Drinks')}>
+              4 to 5 Standard Drinks
+            </div>
+            <div className={`quiz-option ${quizAnswer === '6 to 8 Standard Drinks' ? 'selected' : ''}`} onClick={() => handleQuizAnswer('6 to 8 Standard Drinks')}>
+              6 to 8 Standard Drinks
+            </div>
+            <div className={`quiz-option ${quizAnswer === '9 to 10 Standard Drinks' ? 'selected' : ''}`} onClick={() => handleQuizAnswer('9 to 10 Standard Drinks')}>
+              9 to 10 Standard Drinks
+            </div>
+            <div className={`quiz-option ${quizAnswer === '11 to 15 Standard Drinks' ? 'selected' : ''}`} onClick={() => handleQuizAnswer('11 to 15 Standard Drinks')}>
+              11 to 15 Standard Drinks
+            </div>
+            <div className={`quiz-option ${quizAnswer === '16 or more Standard Drinks' ? 'selected' : ''}`} onClick={() => handleQuizAnswer('16 or more Standard Drinks')}>
+              16 or more Standard Drinks
+            </div>
+          </div>
+          {showQuizResult && (
+            <div className="quiz-result">
+              Your answer: {quizAnswer}
+              <div>
+                {quizAnswer === correctAnswer ? (
+                  <p>Correct answer: {correctAnswer}</p>
+                ) : (
+                  <p>The correct answer was: {correctAnswer}</p>
+                )}
+              </div>
+            </div>
+          )}
+        </div>
+        <div className="Correct-Consumption">
+          <h1>Correct Alcohol Consumption</h1>
+          <p>Placeholder text for correct alcohol consumption.</p>
+        </div>
       </div>
 
       <div className="info-div">
