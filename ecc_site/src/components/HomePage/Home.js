@@ -121,7 +121,7 @@ const Home = () => {
               11 to 15 Standard Drinks
             </div>
             <div className={`quiz-option ${quizAnswer === '16 or more Standard Drinks' ? 'selected' : ''}`} onClick={() => handleQuizAnswer('16 or more Standard Drinks')}>
-              16 or more Standard Drinks
+              16 or more Standard Drink
             </div>
           </div>
           {showQuizResult && (
