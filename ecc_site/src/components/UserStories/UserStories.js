@@ -24,9 +24,10 @@ const UserStoriesComponent = () => {
             others and show the real truth about the problem with alcohol in
             Australia.
             <br></br>
-            This feature we are working to implement as security and data privacy is our 
-            top priority, we want to ensure that your stories are safe and secure. We 
-            hope to have this functioning soon, so please check back in the future.
+            This feature we are working to implement as security and data
+            privacy is our top priority, we want to ensure that your stories are
+            safe and secure. We hope to have this functioning soon, so please
+            check back in the future.
           </p>
           <a href="#add-your-story" className="add-story-button">
             Add your story here
