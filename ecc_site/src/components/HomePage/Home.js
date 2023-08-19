@@ -7,12 +7,14 @@ const Home = () => {
   const [pollAnswer, setPollAnswer] = useState(null);
   const [yesVotes, setYesVotes] = useState(0);
   const [noVotes, setNoVotes] = useState(0);
+  const [pollStatsLoaded, setPollStatsLoaded] = useState(false); // New state to track loading
 
   // Fetch initial stats from Firestore and update state
   useEffect(() => {
     getPollStats("poll", "stats").then((drinkingStats) => {
       setYesVotes(drinkingStats.yes);
       setNoVotes(drinkingStats.no);
+      setPollStatsLoaded(true); // Set the loading state to true once stats are loaded
     });
   }, []);
 
@@ -57,7 +59,7 @@ const Home = () => {
     <div className="home-content">
       <div className="question-box">
         <h2>Do you think Australia has a drinking problem?</h2>
-        {!pollAnswer && (
+        {pollStatsLoaded && !pollAnswer && (
           <div className="answer-buttons">
             <button
               className="answer-button"
