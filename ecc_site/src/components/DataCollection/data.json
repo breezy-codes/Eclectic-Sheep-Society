@@ -1,0 +1,67 @@
+[
+    {
+      "question": "What is the capital of France?",
+      "options": [
+        "Paris",
+        "Berlin",
+        "London"
+      ]
+    },
+    {
+      "question": "Which planet is known as the Red Planet?",
+      "options": [
+        "Mars",
+        "Venus",
+        "Jupiter"
+      ]
+    },
+    {
+      "question": "What is the largest mammal?",
+      "options": [
+        "Blue Whale",
+        "Elephant",
+        "Giraffe"
+      ]
+    },
+    {
+      "question": "Which gas do plants use for photosynthesis?",
+      "options": [
+        "Carbon Dioxide",
+        "Oxygen",
+        "Nitrogen"
+      ]
+    },
+    {
+        "question": "What is the capital of France?",
+        "options": [
+          "Paris",
+          "Berlin",
+          "London"
+        ]
+      },
+      {
+        "question": "Which planet is known as the Red Planet?",
+        "options": [
+          "Mars",
+          "Venus",
+          "Jupiter"
+        ]
+      },
+      {
+        "question": "What is the largest mammal?",
+        "options": [
+          "Blue Whale",
+          "Elephant",
+          "Giraffe"
+        ]
+      },
+      {
+        "question": "Which gas do plants use for photosynthesis?",
+        "options": [
+          "Carbon Dioxide",
+          "Oxygen",
+          "Nitrogen"
+        ]
+      }
+  ]
+  
