@@ -1,0 +1,110 @@
+/* quiz.css */
+.content {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.quiz-container {
+  display: flex;
+  flex-direction: column; /* Change to column layout */
+  width: 80%; /* Adjust the width as needed */
+  margin: 1rem auto;
+}
+
+.quiz-section {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0.8rem;
+  background-color: rgba(14, 165, 197, 255);
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  transition: background-color 0.3s;
+  margin-bottom: 1.5rem;
+}
+
+.quiz-section.answered {
+  background-color: rgba(176, 217, 238, 255); /* Change color for answered question */
+}
+
+.quiz-question {
+  flex: 1;
+  max-width: 40%; /* Adjust the width as needed */
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.option {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border-radius: 10px; /* Add rounded corners */
+}
+
+.option.selected {
+  background-color: rgba(14, 165, 197, 255);
+}
+
+.color-square {
+  width: 80px;
+  height: 20px;
+  background-color: #d05151; /* Change to the appropriate color */
+  border-radius: 8px; /* Add rounded corners */
+  margin-left: auto; /* Align to the right */
+}
+
+.graph-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 50%; /* Adjust the width as needed */
+  padding-left: 2rem;
+}
+
+.quiz-pie-chart {
+  display: flex;
+  align-items: center;
+}
+
+.pie-chart-guide {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 1rem;
+}
+
+.pie-chart-guide-item {
+  display: flex;
+  align-items: center;
+  margin: 0.8rem 0;
+}
+
+.guide-color {
+  width: 16px;
+  height: 16px;
+  margin-right: 0.5rem;
+  border-radius: 8px; /* Add rounded corners */
+}
+
+.info-box {
+  background-color: rgba(176, 217, 238, 255); /* Change to the desired color */
+  padding: 0.8rem;
+  border-radius: 8px;
+  margin-top: 0.rem;
+  text-align: center; /* Align the text to the center */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Set the width to 100% to match the parent container */
+}
+
+.info-box p {
+  margin: 0; /* Remove default margin to control spacing with line-height */
+  line-height: 1.75; /* Increase the line-height for more spacing between lines */
+  margin-bottom: 1.5rem;
+}
