@@ -124,12 +124,12 @@
 .Responsible-Alcohol-Consumption {
   display: flex;
   align-items: flex-start;
-  margin-top: 0rem; /* Add some spacing */
+  margin-top: 0rem;
 }
 
 .Alcohol-Quiz {
-  width: 40%; /* Set the quiz section width */
-  margin-right: 2rem; /* Add some spacing between the two sections */
+  width: 40%;
+  margin-right: 2rem;
   padding: 1rem;
   background-color: rgba(14, 165, 197, 255);
   border-radius: 8px;
@@ -137,7 +137,7 @@
 }
 
 .Correct-Consumption {
-  width: 60%; /* Set the correct consumption section width */
+  width: 60%;
   padding: 1rem;
   background-color: rgba(176, 217, 238, 0.8);
   border-radius: 8px;
@@ -149,8 +149,8 @@
   border: 1px solid #ddd;
   padding: 0.5rem;
   cursor: pointer;
-  border-radius: 10px; /* Add rounded corners */
-  margin-bottom: 0.5rem; /* Add spacing between options */
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
 }
 
 .Alcohol-Quiz .quiz-option.selected {

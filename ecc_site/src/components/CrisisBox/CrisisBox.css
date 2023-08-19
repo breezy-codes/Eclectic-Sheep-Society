@@ -47,7 +47,7 @@
   border-radius: 5px;
   cursor: pointer;
   font-size: 0.9rem;
-  width: 100%; /* Adjust the width as needed */
+  width: 100%;
   transition: background-color 0.3s, color 0.3s;
 }
 

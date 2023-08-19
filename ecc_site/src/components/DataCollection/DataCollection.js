@@ -1,4 +1,4 @@
-import React, { useState } from 'react'; // Import useState
+import React, { useState } from 'react';
 import './DataCollection.css';
 import questionsData from './data.json';
 

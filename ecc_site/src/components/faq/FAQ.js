@@ -1,5 +1,5 @@
 import React from 'react';
-import faqData from './faqData.json'; // Assuming your JSON file is named faqData.json
+import faqData from './faqData.json';
 
 import './FAQ.css';
 

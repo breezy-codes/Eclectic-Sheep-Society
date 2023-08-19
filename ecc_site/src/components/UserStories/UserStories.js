@@ -1,6 +1,6 @@
 import React from "react";
-import "./UserStories.css"; // Import the CSS file
-import userStoriesData from "./UserStoriesData.json"; // Import the user stories data
+import "./UserStories.css";
+import userStoriesData from "./UserStoriesData.json";
 
 // Create a UserStories component
 const UserStoriesComponent = () => {
@@ -23,6 +23,10 @@ const UserStoriesComponent = () => {
             you know, please share it with us. We will publish it here to help
             others and show the real truth about the problem with alcohol in
             Australia.
+            <br></br>
+            This feature we are working to implement as security and data privacy is our 
+            top priority, we want to ensure that your stories are safe and secure. We 
+            hope to have this functioning soon, so please check back in the future.
           </p>
           <a href="#add-your-story" className="add-story-button">
             Add your story here
