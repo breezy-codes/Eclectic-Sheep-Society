@@ -28,7 +28,7 @@ const Home = () => {
     setShowQuizResult(true);
   };
 
-  const correctAnswer = '9 to 10';
+  const correctAnswer = '9 to 10 Standard Drinks';
 
   return (
     <div className="home-content">
@@ -100,28 +100,28 @@ const Home = () => {
 
       <div className="Responsible-Alcohol-Consumption">
         <div className="Alcohol-Quiz">
-          <h1>How much alcohol consumption is safe?</h1>
+          <h2>How much alcohol consumption in a single week is safe?</h2>
           <div className="quiz-options">
             <div className={`quiz-option ${quizAnswer === 'none' ? 'selected' : ''}`} onClick={() => handleQuizAnswer('none')}>
               None
             </div>
-            <div className={`quiz-option ${quizAnswer === '1to3' ? 'selected' : ''}`} onClick={() => handleQuizAnswer('1to3')}>
-              1 to 3
+            <div className={`quiz-option ${quizAnswer === '1 to 3 Standard Drinks' ? 'selected' : ''}`} onClick={() => handleQuizAnswer('1 to 3 Standard Drinks')}>
+              1 to 3 Standard Drinks
             </div>
-            <div className={`quiz-option ${quizAnswer === '4to5' ? 'selected' : ''}`} onClick={() => handleQuizAnswer('4to5')}>
-              4 to 5
+            <div className={`quiz-option ${quizAnswer === '4 to 5 Standard Drinks' ? 'selected' : ''}`} onClick={() => handleQuizAnswer('4 to 5 Standard Drinks')}>
+              4 to 5 Standard Drinks
             </div>
-            <div className={`quiz-option ${quizAnswer === '6to8' ? 'selected' : ''}`} onClick={() => handleQuizAnswer('6to8')}>
-              6 to 8
+            <div className={`quiz-option ${quizAnswer === '6 to 8 Standard Drinks' ? 'selected' : ''}`} onClick={() => handleQuizAnswer('6 to 8 Standard Drinks')}>
+              6 to 8 Standard Drinks
             </div>
-            <div className={`quiz-option ${quizAnswer === '9to10' ? 'selected' : ''}`} onClick={() => handleQuizAnswer('9to10')}>
-              9 to 10
+            <div className={`quiz-option ${quizAnswer === '9 to 10 Standard Drinks' ? 'selected' : ''}`} onClick={() => handleQuizAnswer('9 to 10 Standard Drinks')}>
+              9 to 10 Standard Drinks
             </div>
-            <div className={`quiz-option ${quizAnswer === '11to15' ? 'selected' : ''}`} onClick={() => handleQuizAnswer('11to15')}>
-              11 to 15
+            <div className={`quiz-option ${quizAnswer === '11 to 15 Standard Drinks' ? 'selected' : ''}`} onClick={() => handleQuizAnswer('11 to 15 Standard Drinks')}>
+              11 to 15 Standard Drinks
             </div>
-            <div className={`quiz-option ${quizAnswer === '16ormore' ? 'selected' : ''}`} onClick={() => handleQuizAnswer('16ormore')}>
-              16 or more
+            <div className={`quiz-option ${quizAnswer === '16 or more Standard Drinks' ? 'selected' : ''}`} onClick={() => handleQuizAnswer('16 or more Standard Drinks')}>
+              16 or more Standard Drinks
             </div>
           </div>
           {showQuizResult && (
