@@ -20,7 +20,7 @@ const Footer = () => {
           <b>Presentation</b> - Andrew Paull<br></br>
         </p>
         <p className="copyright">
-          &copy; 2023 Eclectic Sheep Society
+          &copy; 2023 Eclectic Sheep Society Be herd. Be eclectic.
         </p>
       </div>
     </footer>
