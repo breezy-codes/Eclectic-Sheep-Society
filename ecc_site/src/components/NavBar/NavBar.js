@@ -12,6 +12,7 @@ const NavBar = () => {
           <Navbar.Brand href="#home" className="navbar-brand">TalkTipsy</Navbar.Brand>
           <Nav className="navbar-nav">
             <Nav.Link href="/Home">Home</Nav.Link>
+            <Nav.Link href="/UserStories">User Stories</Nav.Link>
             <Nav.Link href="/Chat">Chat</Nav.Link>
             <Nav.Link href="/Quiz">Quiz</Nav.Link>
             <Nav.Link href="/Risks">Risks</Nav.Link>
