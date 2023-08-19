@@ -7,13 +7,6 @@
   padding: 1rem 0;
 }
 
-.custom-navbar .navbar-brand {
-  font-size: 2.5rem;
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  display: block;
-}
-
 .custom-navbar .navbar-nav {
   display: flex;
   justify-content: center;
@@ -32,4 +25,11 @@
 .custom-navbar .navbar-nav .nav-link:hover {
   background-color: rgba(0, 0, 0, 0.1);
   border-radius: 0.25rem;
+}
+
+.logo {
+  width: 250px; /* Adjust the width as needed */
+  height: auto;
+  display: block;
+  margin: 0 auto; /* Add margin to center-align the logo horizontally */
 }

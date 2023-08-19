@@ -29,23 +29,25 @@
 
 .quiz-question {
   flex: 1;
-  max-width: 40%;
+  max-width: 38%;
 }
 
 .options {
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
+  gap: 1rem;
 }
 
 .option {
   background-color: #fff;
-  border: 1px solid #ddd;
+  border: 0px solid #ddd;
   padding: 0.5rem;
   cursor: pointer;
   display: flex;
   align-items: center;
   border-radius: 10px;
+  box-shadow: 1px 6px 8px rgba(0, 0, 0, 0.1);
+  font-size: 1rem;
 }
 
 .option.selected {
@@ -83,12 +85,13 @@
 .pie-chart-guide-item {
   display: flex;
   align-items: center;
-  margin: 1rem 0;
+  margin: 0.8rem 0;
+  font-size: 1.rem;
 }
 
 .guide-color {
-  width: 16px;
-  height: 16px;
+  width: 20px;
+  height: 20px;
   margin-right: 0.5rem;
   border-radius: 8px;
 }

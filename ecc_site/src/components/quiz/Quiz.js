@@ -59,7 +59,7 @@ const Quiz = () => {
             {selectedOptionIndexes[questionIndex] !== null && (
               <div className="graph-box">
                 <div className="quiz-pie-chart">
-                  <PieChart width={300} height={300}>
+                  <PieChart width={350} height={350}>
                     <Pie
                       data={quizItem.stats}
                       dataKey="percentage"

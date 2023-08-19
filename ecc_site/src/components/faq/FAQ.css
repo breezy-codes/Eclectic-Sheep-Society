@@ -1,57 +1,38 @@
-/* FAQ.css */
-.content {
-  text-align: center;
-  padding: 2rem 0;
-}
-
-.FAQ-section {
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.question-wrapper {
-  background-color: rgba(14, 165, 197, 255); 
-  border: 1px solid #ddd;
-  margin-bottom: 1rem;
-  padding: 1rem;
-  position: relative;
-  cursor: pointer;
+.faq-container {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
+}
+
+.faq-item {
+  width: 80%;
+  margin: 10px;
+  padding: 15px;
   border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.question {
-  font-size: 1.2rem;
-  color: #ffffff;
-  flex: 1;
+.faq-item.expanded {
+  background-color: #f8f8f8;
 }
 
-.arrow {
-  font-size: 1.5rem;
-  transition: transform 0.3s;
-}
-
-.question.open .arrow {
-  transform: rotate(180deg);
+.faq-question {
+  font-weight: bold;
+  background-color: rgba(14, 165, 197);
+  padding: 1rem;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
 }
 
 .answer {
-  display: none;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-}
-
-.answer.active {
-  display: block;
-}
-
-.answer-content {
+  font-size: 18px;
   background-color: rgba(176, 217, 238);
-  color: #000000;
-  border: 1px solid #ddd;
   padding: 1rem;
   border-radius: 10px;
-  line-height: 2rem;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 10px;
+  line-height: 1.5rem; /* Apply line-height to the paragraph */
 }
