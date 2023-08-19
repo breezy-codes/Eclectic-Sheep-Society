@@ -28,8 +28,8 @@
 }
 
 .logo {
-  width: 250px; /* Adjust the width as needed */
+  width: 250px;
   height: auto;
   display: block;
-  margin: 0 auto; /* Add margin to center-align the logo horizontally */
+  margin: 0 auto;
 }

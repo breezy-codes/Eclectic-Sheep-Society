@@ -1,8 +1,8 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import './NavBar.css'; // Make sure to import your custom CSS file
-import OurLogo from './OurLogo.png'; // Check the case sensitivity of the file name
+import './NavBar.css';
+import OurLogo from './OurLogo.png';
 
 const NavBar = () => {
   return (
