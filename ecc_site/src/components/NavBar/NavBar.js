@@ -8,7 +8,7 @@ const NavBar = () => {
     <>
       <Navbar className="custom-navbar" expand="lg">
         <Container>
-          <Navbar.Brand href="#home" className="navbar-brand">Untold Story</Navbar.Brand>
+          <Navbar.Brand href="/home" className="navbar-brand">Untold Story</Navbar.Brand>
           <Nav className="navbar-nav">
             <Nav.Link href="/Home">Home</Nav.Link>
             <Nav.Link href="/DataCollection">Help Us</Nav.Link>            
