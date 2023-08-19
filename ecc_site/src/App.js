@@ -9,6 +9,7 @@ import Risks from './components/risks/Risks';
 import FAQ from './components/faq/FAQ';
 import UserStories from './components/userStories/UserStories';
 import DataCollection from './components/DataCollection/DataCollection';
+import CrisisBox from './components/CrisisBox/CrisisBox';
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
         <Route path="/Stats" element={<Stats />} />
         <Route path="/FAQ" element={<FAQ />} />
       </Routes>
+      <CrisisBox />
       <Footer />
     </Router>
   );
