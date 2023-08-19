@@ -3,7 +3,7 @@ import quizData from './quizData.json'; // Import quiz data
 import { PieChart, Pie, Cell, Tooltip } from 'recharts';
 import './quiz.css';
 
-const colors = ['#d05151', '#faac32', '#f7e31d', '#48cd6c', '#4478d5'];
+const colors = ['#d05151', '#faac32', '#48cd6c', '#4478d5', '#f36be9', '#9334cd'];
 
 const Quiz = () => {
   const [selectedOptionIndexes, setSelectedOptionIndexes] = useState(
@@ -94,6 +94,9 @@ const Quiz = () => {
             )}
           </div>
         ))}
+        <div>
+          Add a button to see if user wants to share their story/answer a quiz
+        </div>
         <div className="info-box">
           <h1>Do you think this represents Australia?</h1>
           <p>This is the information collected by Doctors/Hospitals
