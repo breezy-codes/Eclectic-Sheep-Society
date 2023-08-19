@@ -6,7 +6,7 @@ import userStoriesData from './UserStoriesData.json'; // Import the user stories
 const UserStoriesComponent = () => {
   return (
     <div className="content">
-      <h1>User Stories</h1>
+      <h1>The truth about how Alcohol harms the people around you</h1>
       <div className="stories-container">
         {userStoriesData.map((userStory, index) => (
           <div className="user-story" key={index}>
