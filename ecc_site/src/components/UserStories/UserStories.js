@@ -1,6 +1,6 @@
-import React from 'react';
-import './UserStories.css'; // Import the CSS file
-import userStoriesData from './UserStoriesData.json'; // Import the user stories data
+import React from "react";
+import "./UserStories.css"; // Import the CSS file
+import userStoriesData from "./UserStoriesData.json"; // Import the user stories data
 
 // Create a UserStories component
 const UserStoriesComponent = () => {
@@ -19,11 +19,14 @@ const UserStoriesComponent = () => {
         <div className="user-story">
           <h2>We want your stories!</h2>
           <p>
-            If you have a story about how alcohol has affected you or someone you
-            know, please share it with us. We will publish it here to help others
-            and show the real truth about the problem with alcohol in Australia.
+            If you have a story about how alcohol has affected you or someone
+            you know, please share it with us. We will publish it here to help
+            others and show the real truth about the problem with alcohol in
+            Australia.
           </p>
-          <a href="#add-your-story" className="add-story-button">Add your story here</a>
+          <a href="#add-your-story" className="add-story-button">
+            Add your story here
+          </a>
         </div>
       </div>
     </div>
