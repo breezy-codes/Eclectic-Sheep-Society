@@ -19,6 +19,17 @@ const Home = () => {
   const yesPercentage = (yesVotes / totalVotes) * 100;
   const noPercentage = (noVotes / totalVotes) * 100;
 
+  // For the alcohol quiz on the page
+  const [quizAnswer, setQuizAnswer] = useState(null);
+  const [showQuizResult, setShowQuizResult] = useState(false);
+
+  const handleQuizAnswer = (selectedAnswer) => {
+    setQuizAnswer(selectedAnswer);
+    setShowQuizResult(true);
+  };
+
+  const correctAnswer = '9 to 10';
+
   return (
     <div className="home-content">
       <div className="question-box">
@@ -87,9 +98,49 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="info-div">
-        <h1>Information Section 1</h1>
-        <p>Placeholder text for information section 1.</p>
+      <div className="Responsible-Alcohol-Consumption">
+        <div className="Alcohol-Quiz">
+          <h1>How much alcohol consumption is safe?</h1>
+          <div className="quiz-options">
+            <div className={`quiz-option ${quizAnswer === 'none' ? 'selected' : ''}`} onClick={() => handleQuizAnswer('none')}>
+              None
+            </div>
+            <div className={`quiz-option ${quizAnswer === '1to3' ? 'selected' : ''}`} onClick={() => handleQuizAnswer('1to3')}>
+              1 to 3
+            </div>
+            <div className={`quiz-option ${quizAnswer === '4to5' ? 'selected' : ''}`} onClick={() => handleQuizAnswer('4to5')}>
+              4 to 5
+            </div>
+            <div className={`quiz-option ${quizAnswer === '6to8' ? 'selected' : ''}`} onClick={() => handleQuizAnswer('6to8')}>
+              6 to 8
+            </div>
+            <div className={`quiz-option ${quizAnswer === '9to10' ? 'selected' : ''}`} onClick={() => handleQuizAnswer('9to10')}>
+              9 to 10
+            </div>
+            <div className={`quiz-option ${quizAnswer === '11to15' ? 'selected' : ''}`} onClick={() => handleQuizAnswer('11to15')}>
+              11 to 15
+            </div>
+            <div className={`quiz-option ${quizAnswer === '16ormore' ? 'selected' : ''}`} onClick={() => handleQuizAnswer('16ormore')}>
+              16 or more
+            </div>
+          </div>
+          {showQuizResult && (
+            <div className="quiz-result">
+              Your answer: {quizAnswer}
+              <div>
+                {quizAnswer === correctAnswer ? (
+                  <p>Correct answer: {correctAnswer}</p>
+                ) : (
+                  <p>The correct answer was: {correctAnswer}</p>
+                )}
+              </div>
+            </div>
+          )}
+        </div>
+        <div className="Correct-Consumption">
+          <h1>Correct Alcohol Consumption</h1>
+          <p>Placeholder text for correct alcohol consumption.</p>
+        </div>
       </div>
 
       <div className="info-div">

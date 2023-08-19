@@ -33,8 +33,8 @@ const Footer = () => {
         </p>
         <p style={paragraphStyle}>
           <b>Team Leader</b> - Anastasiya Guenov<br></br>
-          <b>Website Developer</b> - Brianna Laird<br></br>
-          <b>Data Analyst/AI Model</b> - Rishant Sharma<br></br>
+          <b>Website & Frontend Developer</b> - Brianna Laird<br></br>
+          <b>Data Analyst & AI Model</b> - Rishant Sharma<br></br>
           <b>Backend Developer</b> - Brad Splicin<br></br>
           <b>Presentation</b> - Andrew Paull<br></br>
         </p>
