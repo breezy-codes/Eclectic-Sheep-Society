@@ -14,7 +14,7 @@ const Footer = () => {
   };
 
   const paragraphStyle = {
-    marginBottom: '1rem',
+    marginBottom: '1.5rem', // Update the margin for line spacing
   };
 
   const copyrightStyle = {
@@ -26,10 +26,17 @@ const Footer = () => {
     <footer style={footerStyle}>
       <div style={contentStyle}>
         <p style={paragraphStyle}>
-          Our project created for Govhack 2023.
+          Untold Story, created as part of the 2023 GovHack competition by the Eclectic Sheep Society.
         </p>
         <p style={paragraphStyle}>
           Project Team - Andrew Paull, Brad Splicin, Brianna Laird, Anastasiya Guenov and Rishant Sharma
+        </p>
+        <p style={paragraphStyle}>
+          <b>Team Leader</b> - Anastasiya Guenov<br></br>
+          <b>Website Developer</b> - Brianna Laird<br></br>
+          <b>Data Analyst/AI Model</b> - Rishant Sharma<br></br>
+          <b>Backend Developer</b> - Brad Splicin<br></br>
+          <b>Presentation</b> - Andrew Paull<br></br>
         </p>
         <p style={copyrightStyle}>
           &copy; 2023 Eclectic Sheep Society
@@ -37,6 +44,6 @@ const Footer = () => {
       </div>
     </footer>
   );
-}
+};
 
 export default Footer;

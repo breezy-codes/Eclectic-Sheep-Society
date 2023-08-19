@@ -3,7 +3,7 @@ import quizData from './quizData.json'; // Import quiz data
 import { PieChart, Pie, Cell, Tooltip } from 'recharts';
 import './quiz.css';
 
-const colors = ['#d05151', '#faac32', '#f7e31d', '#48cd6c', '#4478d5'];
+const colors = ['#d05151', '#faac32', '#48cd6c', '#4478d5', '#f36be9', '#9334cd'];
 
 const Quiz = () => {
   const [selectedOptionIndexes, setSelectedOptionIndexes] = useState(
@@ -94,16 +94,20 @@ const Quiz = () => {
             )}
           </div>
         ))}
+        <div>
+          Add a button to see if user wants to share their story/answer a quiz
+        </div>
         <div className="info-box">
           <h1>Do you think this represents Australia?</h1>
-          <p>This is the information collected by Doctors/Hospitals
-            It isn't always the correct information as people feel the shame of telling the
-            truth when put on the spot. This is why we need real stories, real information of 
-            what is currently happening in Australia.
+          <p>The current National Drug Strategy Survey 2022 will only target 21,500 people, 
+            while the population of Australia is 25,422,788 people. How can you truly understand 
+            Australia by asking 0.084% of the population? This is why we have created this site and our quiz. 
+            We want to show the real truth about the problem by asking the people of Australia and hopefully
+            asking a lot more than 0.084% of Aussies.
           </p>
-          <p> If you have a story to tell, please share it with us. This information is collected
-            anonymously and will be used to help others. As well as show the real truth about the
-            problem with alcohol in Australia.
+            <p>Please consider helping us by filling out the quiz below and sharing your story. 
+            You can also help us by sharing this website with your friends and family. Or share it on social media.
+            The more information we can collect, the more we can highlight what is REALLY happening in Australia.
           </p>
         </div>
       </div>

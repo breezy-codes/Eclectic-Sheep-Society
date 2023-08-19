@@ -8,13 +8,13 @@ const NavBar = () => {
     <>
       <Navbar className="custom-navbar" expand="lg">
         <Container>
-          <Navbar.Brand href="#home" className="navbar-brand">TalkTipsy</Navbar.Brand>
+          <Navbar.Brand href="#home" className="navbar-brand">Untold Story</Navbar.Brand>
           <Nav className="navbar-nav">
             <Nav.Link href="/Home">Home</Nav.Link>
+            <Nav.Link href="/DataCollection">Help Us</Nav.Link>            
             <Nav.Link href="/UserStories">User Stories</Nav.Link>
-            <Nav.Link href="/Chat">Chat</Nav.Link>
-            <Nav.Link href="/Quiz">Quiz</Nav.Link>
-            <Nav.Link href="/Risks">Risks</Nav.Link>
+            <Nav.Link href="/Chat">Chatbot</Nav.Link>
+            <Nav.Link href="/Quiz">Do you Know Aussies?</Nav.Link>
             <Nav.Link href="/Stats">Stats</Nav.Link>
             <Nav.Link href="/FAQ">FAQ</Nav.Link>
           </Nav>
