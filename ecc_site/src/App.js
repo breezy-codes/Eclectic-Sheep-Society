@@ -7,7 +7,7 @@ import Quiz from "./components/quiz/Quiz";
 import Stats from "./components/stats/Stats";
 import Risks from "./components/risks/Risks";
 import FAQ from "./components/faq/FAQ";
-import UserStories from "./components/userStories/UserStories";
+import UserStories from "./components/UserStories/UserStories";
 import DataCollection from "./components/DataCollection/DataCollection";
 
 const App = () => {
