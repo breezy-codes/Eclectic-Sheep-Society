@@ -1,6 +1,6 @@
 /* NavBar.css */
 .custom-navbar {
-  background-color: rgba(60, 166, 146, 0.462);
+  background-color: rgba(14, 165, 197);
   color: rgb(255, 255, 255);
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
   text-align: center; /* Center the content horizontally */
@@ -8,8 +8,8 @@
 }
 
 .custom-navbar .navbar-brand {
-  font-size: 1.8rem;
-  color: black;
+  font-size: 2.5rem;
+  color: rgb(255, 255, 255);
   text-decoration: none; /* Remove the underline */
   display: block; /* Ensure the logo takes full width */
 }
@@ -23,6 +23,7 @@
 
 .custom-navbar .navbar-nav .nav-link {
   color: black;
+  font-size: 1.2rem; /* Increase the font size for the nav links */
   padding: 1rem;
   transition: background-color 0.3s, border-radius 0.3s;
   text-decoration: none; /* Remove the underline */

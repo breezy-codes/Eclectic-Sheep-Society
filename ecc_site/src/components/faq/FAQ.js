@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './FAQ.css';
+import faqData from './faqData.json'; // Import the JSON data
 
-// Create a FAQ component
 const FAQ = () => {
   const [activeIndexes, setActiveIndexes] = useState([]);
 
@@ -13,22 +13,6 @@ const FAQ = () => {
     }
   };
 
-  // Questions and answers to be stored here
-  const faqData = [
-    {
-      question: 'What is TalkTipsy?',
-      answer: 'TalkTipsy is a platform designed to...'
-    },
-    {
-      question: 'Why did we do this?',
-      answer: 'To point out problems with alcohol consumption in Australia.'
-    },
-    // Add more question/answer pairs
-  ];
-
-  // This returns the questions and answers
-  // If a question is clicked, it will show the answer
-  // They remain open until the user closes them
   return (
     <div className="content">
       <h1>Our Frequently Asked Questions</h1>

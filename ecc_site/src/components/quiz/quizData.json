@@ -1,0 +1,40 @@
+[
+    {
+      "label": "Quiz 1", 
+      "question": "How much do Aussies drink a week?",
+      "options": [
+        "Less than 1 drink",
+        "1-3 drinks",
+        "4-6 drinks",
+        "7-10 drinks",
+        "More than 10 drinks"
+      ],
+      "stats": [
+        { "label": "Less than 1 drink", "percentage": 10 },
+        { "label": "1-3 drinks", "percentage": 30 },
+        { "label": "4-6 drinks", "percentage": 25 },
+        { "label": "7-10 drinks", "percentage": 20 },
+        { "label": "More than 10 drinks", "percentage": 15 }
+      ]
+    },
+
+    {
+        "label": "Quiz 2", 
+        "question": "How much should you drink a week?",
+        "options": [
+          "Less than 1 drink",
+          "1-3 drinks",
+          "4-6 drinks",
+          "7-10 drinks",
+          "More than 10 drinks"
+        ],
+        "stats": [
+          { "label": "Less than 1 drink", "percentage": 10 },
+          { "label": "1-3 drinks", "percentage": 30 },
+          { "label": "4-6 drinks", "percentage": 25 },
+          { "label": "7-10 drinks", "percentage": 20 },
+          { "label": "More than 10 drinks", "percentage": 15 }
+        ]
+      }
+]
+  

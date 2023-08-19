@@ -1,12 +1,12 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import NavBar from './components/NavBar';
+import NavBar from './components/NavBar/NavBar';
 import Footer from './components/Footer';
-import Home from './components/Home';
+import Home from './components/HomePage/Home';
 import Quiz from './components/quiz/Quiz';
 import Stats from './components/stats/Stats';
 import Risks from './components/risks/Risks';
-import FAQ from './components/FAQ';
+import FAQ from './components/faq/FAQ';
 
 const App = () => {
   return (
