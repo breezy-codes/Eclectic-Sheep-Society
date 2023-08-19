@@ -1,10 +1,11 @@
+"use client";
 import React from 'react';
+import OurLogo from '../../public/OurLogo.png';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import './NavBar.css';
-import OurLogo from './OurLogo.png';
-import Link from 'next.Link';
+import Link from 'next/link';
+import '../../styles/NavBar.css';
 
 const NavBar = () => {
   return (

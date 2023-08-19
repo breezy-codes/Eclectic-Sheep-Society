@@ -1,0 +1,64 @@
+[
+    {
+      "label": "Quiz 1", 
+      "question": "Aussies living in what part of Australia drink the most alcohol?",
+      "options": [
+        "Major Cities",
+        "Inner Regional",
+        "Outer Regional"
+      ],
+      "stats": [
+        { "label": "Major Cities", "percentage": 25 },
+        { "label": "Inner Regional", "percentage": 30 },
+        { "label": "Outer Regional", "percentage": 45 }
+      ]
+    },
+
+    {
+        "label": "Quiz 2", 
+        "question": "What is the most popular type of alcohol in Australia?",
+        "options": [
+          "Beer",
+          "Wine",
+          "Spirits/RTDs",
+          "Cider"
+        ],
+        "stats": [
+          { "label": "Beer", "percentage": 45.26 },
+          { "label": "Wine", "percentage": 50.57 },
+          { "label": "Spirits/RTDs", "percentage": 29.55 },
+          { "label": "Cider", "percentage": 5.68 }
+        ]
+      },
+      {
+        "label": "Quiz 3",
+        "question": "What is the average number of drinks men consumed when exceeding 5 drinks in one session?",
+        "options":[
+          "5 to 7 Drinks",
+          "8 to 10 Drinks",
+          "11 or more Drinks"
+        ],
+       "stats": [
+          { "label": "5 to 7 Drinks", "percentage": 43.7 },
+          { "label": "8 to 10 Drinks", "percentage": 35 },
+          { "label": "11 or more Drinks", "percentage": 21.6 }
+        ] 
+      },
+      {
+        "label": "Quiz 4",
+        "question": "What is the average number of drinks women consumed when exceeding 5 drinks in one session?",
+        "options":[
+          "5 to 7 Drinks",
+          "8 to 10 Drinks",
+          "11 or more Drinks"
+        ],
+       "stats": [
+          { "label": "5 to 7 Drinks", "percentage": 53 },
+          { "label": "8 to 10 Drinks", "percentage": 35.3 },
+          { "label": "11 or more Drinks", "percentage": 11.2 }
+        ] 
+      }
+
+
+]
+  

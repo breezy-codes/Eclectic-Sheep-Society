@@ -1,0 +1,18 @@
+[
+  {
+    "userName": "User 1",
+    "story": "This is my first story about..."
+  },
+  {
+    "userName": "User 2",
+    "story": "Another user's story goes here..."
+  },
+  {
+    "userName": "User 1",
+    "story": "This is my first story about..."
+  },
+  {
+    "userName": "User 2",
+    "story": "Another user's story goes here..."
+  }
+]

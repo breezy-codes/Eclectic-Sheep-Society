@@ -10,6 +10,8 @@ import FAQ from './components/faq/FAQ';
 import UserStories from './components/userStories/UserStories';
 import DataCollection from './components/DataCollection/DataCollection';
 import CrisisBox from './components/CrisisBox/CrisisBox';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const App = () => {
   return (
