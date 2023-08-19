@@ -10,7 +10,7 @@
 }
 
 .question-wrapper {
-  background-color: rgba(14, 165, 197, 255); /* Shaded background for question */
+  background-color: rgba(14, 165, 197, 255); 
   border: 1px solid #ddd;
   margin-bottom: 1rem;
   padding: 1rem;
@@ -19,7 +19,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-radius: 10px; /* Add rounded corners */
+  border-radius: 10px;
 }
 
 .question {
@@ -39,8 +39,8 @@
 
 .answer {
   display: none;
-  margin-top: 2rem; /* Update the margin-top to 2rem */
-  margin-bottom: 1rem; /* Add spacing between answer and next question */
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 
 .answer.active {
@@ -48,10 +48,10 @@
 }
 
 .answer-content {
-  background-color: rgba(176, 217, 238, 255); /* Lighter shade background for the answer */
+  background-color: rgba(176, 217, 238);
   color: #000000;
   border: 1px solid #ddd;
   padding: 1rem;
-  border-radius: 10px; /* Add rounded corners */
-  line-height: 2rem; /* Set the line spacing to 2rem */
+  border-radius: 10px;
+  line-height: 2rem;
 }
