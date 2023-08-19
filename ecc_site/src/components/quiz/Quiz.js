@@ -19,6 +19,9 @@ const Quiz = () => {
   return (
     <div className="content">
       <h1>Test your Alcohol Knowledge in Australia</h1>
+      <p>This information is based on information provided on&nbsp;
+        <a href="https://www.abs.gov.au/statistics/health/health-conditions-and-risks/alcohol-consumption/2020-21#alcohol-consumption" target="_blank">abs.gov.au</a>
+        </p>
       <div className="quiz-container">
         {quizData.map((quizItem, questionIndex) => (
           <div
