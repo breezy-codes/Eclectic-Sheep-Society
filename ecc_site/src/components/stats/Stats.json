@@ -29,78 +29,78 @@
         "label": "Reason1",
         "ageGroupLabel": "Persons - Exceeded Guideline of 10 Drinks in a Week",
         "data": [
-          { "label": "15 - 17yrs", "Trend": 13},
-          { "label": "18 - 24yrs", "Trend": 10},
-          { "label": "25 - 34yrs", "Trend": 13},
-          { "label": "35 - 44yrs", "Trend": 10},
-          { "label": "45 - 54yrs", "Trend": 13},
-          { "label": "55 - 64yrs", "Trend": 15},
-          { "label": "65yrs +", "Trend": 10}
+          { "label": "15 - 17yrs", "Trend": 6},
+          { "label": "18 - 24yrs", "Trend": 313},
+          { "label": "25 - 34yrs", "Trend": 614},
+          { "label": "35 - 44yrs", "Trend": 645},
+          { "label": "45 - 54yrs", "Trend": 751},
+          { "label": "55 - 64yrs", "Trend": 736},
+          { "label": "65yrs +", "Trend": 825}
         ]
       },
       {
         "label": "Reason2",
         "ageGroupLabel": "Persons - Exceeded Guideline of 5 Drinks in a Given Day",
         "data": [
-          { "label": "15 - 17yrs", "Trend": 13},
-          { "label": "18 - 24yrs", "Trend": 10},
-          { "label": "25 - 34yrs", "Trend": 13},
-          { "label": "35 - 44yrs", "Trend": 10},
-          { "label": "45 - 54yrs", "Trend": 13},
-          { "label": "55 - 64yrs", "Trend": 15},
-          { "label": "65yrs +", "Trend": 10}
+          { "label": "15 - 17yrs", "Trend": 17},
+          { "label": "18 - 24yrs", "Trend": 478},
+          { "label": "25 - 34yrs", "Trend": 769},
+          { "label": "35 - 44yrs", "Trend": 562},
+          { "label": "45 - 54yrs", "Trend": 622},
+          { "label": "55 - 64yrs", "Trend": 524},
+          { "label": "65yrs +", "Trend": 373}
         ]
       },
       {
         "label": "Reason3",
         "ageGroupLabel": "Males - Exceeded Guideline of 10 Drinks in a Week",
         "data": [
-          { "label": "15 - 17yrs", "Trend": 13},
-          { "label": "18 - 24yrs", "Trend": 10},
-          { "label": "25 - 34yrs", "Trend": 13},
-          { "label": "35 - 44yrs", "Trend": 10},
-          { "label": "45 - 54yrs", "Trend": 13},
-          { "label": "55 - 64yrs", "Trend": 15},
-          { "label": "65yrs +", "Trend": 10}
+          { "label": "15 - 17yrs", "Trend": 3},
+          { "label": "18 - 24yrs", "Trend": 189},
+          { "label": "25 - 34yrs", "Trend": 431},
+          { "label": "35 - 44yrs", "Trend": 444},
+          { "label": "45 - 54yrs", "Trend": 490},
+          { "label": "55 - 64yrs", "Trend": 457},
+          { "label": "65yrs +", "Trend": 517}
         ]
       },
       {
         "label": "Reason4",
         "ageGroupLabel": "Males - Exceeded Guideline of 5 Drinks in a Given Day",
         "data": [
-          { "label": "15 - 17yrs", "Trend": 13},
-          { "label": "18 - 24yrs", "Trend": 10},
-          { "label": "25 - 34yrs", "Trend": 13},
-          { "label": "35 - 44yrs", "Trend": 10},
-          { "label": "45 - 54yrs", "Trend": 13},
-          { "label": "55 - 64yrs", "Trend": 15},
-          { "label": "65yrs +", "Trend": 10}
+          { "label": "15 - 17yrs", "Trend": 8},
+          { "label": "18 - 24yrs", "Trend": 255},
+          { "label": "25 - 34yrs", "Trend": 530},
+          { "label": "35 - 44yrs", "Trend": 399},
+          { "label": "45 - 54yrs", "Trend": 413},
+          { "label": "55 - 64yrs", "Trend": 350},
+          { "label": "65yrs +", "Trend": 298}
         ]
       },
       {
         "label": "Reason5",
         "ageGroupLabel": "Females - Exceeded Guideline of 10 Drinks in a Week",
         "data": [
-          { "label": "15 - 17yrs", "Trend": 13},
-          { "label": "18 - 24yrs", "Trend": 10},
-          { "label": "25 - 34yrs", "Trend": 13},
-          { "label": "35 - 44yrs", "Trend": 10},
-          { "label": "45 - 54yrs", "Trend": 13},
-          { "label": "55 - 64yrs", "Trend": 15},
-          { "label": "65yrs +", "Trend": 10}
+          { "label": "15 - 17yrs", "Trend": 0},
+          { "label": "18 - 24yrs", "Trend": 109},
+          { "label": "25 - 34yrs", "Trend": 174},
+          { "label": "35 - 44yrs", "Trend": 200},
+          { "label": "45 - 54yrs", "Trend": 259},
+          { "label": "55 - 64yrs", "Trend": 276},
+          { "label": "65yrs +", "Trend": 299}
         ]
       },
       {
         "label": "Reason6",
         "ageGroupLabel": "Females - Exceeded Guideline of 5 Drinks in a Given Day",
         "data": [
-          { "label": "15 - 17yrs", "Trend": 13},
-          { "label": "18 - 24yrs", "Trend": 10},
-          { "label": "25 - 34yrs", "Trend": 13},
-          { "label": "35 - 44yrs", "Trend": 10},
-          { "label": "45 - 54yrs", "Trend": 13},
-          { "label": "55 - 64yrs", "Trend": 15},
-          { "label": "65yrs +", "Trend": 10}
+          { "label": "15 - 17yrs", "Trend": 6},
+          { "label": "18 - 24yrs", "Trend": 230},
+          { "label": "25 - 34yrs", "Trend": 242},
+          { "label": "35 - 44yrs", "Trend": 163},
+          { "label": "45 - 54yrs", "Trend": 222},
+          { "label": "55 - 64yrs", "Trend": 173},
+          { "label": "65yrs +", "Trend": 80}
         ]
       }
     ]
