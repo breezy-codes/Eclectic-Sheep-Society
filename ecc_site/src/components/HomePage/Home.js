@@ -145,7 +145,7 @@ const Home = () => {
           </div>
           <div className="message" style={{ animationDelay: "1.5s" }}>
             <div className="message-box">
-              <p>AHW.gov data set</p>
+              <p>AIHW.gov data set</p>
             </div>
           </div>
         </div>
@@ -227,7 +227,23 @@ const Home = () => {
         </div>
         <div className="Correct-Consumption">
           <h1>Correct Alcohol Consumption</h1>
-          <p>Placeholder text for correct alcohol consumption.</p>
+          <p>The National Health and Medical Research Council (NHMRC) released the revised Australian
+            guidelines to reduce health risks from drinking alcohol. The aim of the Guidelines is to provide advice
+            about the health risks so that Australians can make informed decisions on alcohol consumption.
+            <br></br>
+            <b>Guideline 1:</b> Reducing the risk of alcohol-related harm for adults
+            To reduce the risk of harm from alcohol-related disease or injury, healthy men and women should drink no
+            more than 10 standard drinks a week and no more than 4 standard drinks on any one day. 
+            <br></br>
+            <b>Guideline 2:</b> Children and people under 18 years of age
+            To reduce the risk of injury and other harms to health, children and people under 18 years of age should
+            not drink alcohol.
+            <br></br>
+            <b>Guideline 3:</b> Women who are pregnant or breastfeeding
+            To prevent harm from alcohol to their unborn child, women who are pregnant or planning a 
+            pregnancy should not drink alcohol. For women who are breastfeeding, not drinking alcohol is safest for their baby.
+
+          </p>
         </div>
       </div>
 

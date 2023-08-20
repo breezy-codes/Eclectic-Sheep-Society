@@ -1,18 +1,10 @@
 [
   {
-    "userName": "User 1",
-    "story": "This is my first story about..."
+    "userName": "User Story 1",
+    "story": "My grandfather's life was tragically cut short due to the actions of a drunk truck driver. The incident occurred when my mum was only 14 years old. A truck ran over the sedan carrying my grandfather and four of his brothers; only one person survived. The impact of this tragedy has resonated within our family, and I never had the chance to meet him. His loss serves as a painful reminder of the irreversible consequences of drunk driving."
   },
   {
-    "userName": "User 2",
-    "story": "Another user's story goes here..."
-  },
-  {
-    "userName": "User 1",
-    "story": "This is my first story about..."
-  },
-  {
-    "userName": "User 2",
-    "story": "Another user's story goes here..."
+    "userName": "User Story 2",
+    "story": "My uncle, an upstanding man when sober, transformed into a monster under the influence of alcohol. His raging alcoholic tendencies led to severe abuse of his children, including horrifying acts such as threatening to dip their heads in the toilet bowl. Although my auntie ultimately divorced him, the scars of his actions left a lasting trauma on my cousins. One of them never recovered from the pain, ending up in prison where he eventually lost his life. This story is a stark testament to the destructive power of alcohol, not only affecting the individual but tearing families apart."
   }
 ]

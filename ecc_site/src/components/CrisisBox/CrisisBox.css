@@ -55,3 +55,28 @@
   background-color: #e0e0e0;
   color: #f44336;
 }
+
+/*Mobile size*/
+@media (max-width: 767px) {
+  .crisis-box {
+    padding: 6px;
+    font-size: 10px;
+    border-radius: 5px;
+  }
+
+  .title {
+    font-size: 1rem;
+    margin-bottom: 3px;
+  }
+
+  .text,
+  .phone {
+    font-size: 0.8rem;
+    margin: 2px 0;
+  }
+
+  .visit-button {
+    padding: 4px;
+    font-size: 0.6rem;
+  }
+}

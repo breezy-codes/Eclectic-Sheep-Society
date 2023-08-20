@@ -1,11 +1,293 @@
-[
-    {
-      "question": "What is TalkTipsy?",
-      "answer": "TalkTipsy is a platform designed to..."
-    },
-    {
-      "question": "Why did we do this?",
-      "answer": "To point out problems with alcohol consumption in Australia."
-    }
-  ]
-  
+{
+  "Graph Set 1": {
+    "datasets": [
+      {
+        "label": "18-24",
+        "ageGroupLabel": "18 to 24",
+        "data": [
+          { "label": "2018", "Trend": 1330},
+          { "label": "2019", "Trend": 105},
+          { "label": "2020", "Trend": 1330},
+          { "label": "2021", "Trend": 105}
+        ]
+      },
+      {
+        "label": "26-30",
+        "ageGroupLabel": "26 to 30",
+        "data": [
+          { "label": "2018", "Trend": 1330},
+          { "label": "2019", "Trend": 105},
+          { "label": "2020", "Trend": 1330},
+          { "label": "2021", "Trend": 105}
+        ]
+      }
+    ]
+  },
+  "Data on Alcohol Consumption": {
+    "datasets": [
+      {
+        "label": "Reason1",
+        "ageGroupLabel": "Persons - Exceeded Guideline of 10 Drinks in a Week",
+        "data": [
+          { "label": "15 - 17yrs", "Trend": 6},
+          { "label": "18 - 24yrs", "Trend": 313},
+          { "label": "25 - 34yrs", "Trend": 614},
+          { "label": "35 - 44yrs", "Trend": 645},
+          { "label": "45 - 54yrs", "Trend": 751},
+          { "label": "55 - 64yrs", "Trend": 736},
+          { "label": "65yrs +", "Trend": 825}
+        ]
+      },
+      {
+        "label": "Reason2",
+        "ageGroupLabel": "Persons - Exceeded Guideline of 5 Drinks in a Given Day",
+        "data": [
+          { "label": "15 - 17yrs", "Trend": 17},
+          { "label": "18 - 24yrs", "Trend": 478},
+          { "label": "25 - 34yrs", "Trend": 769},
+          { "label": "35 - 44yrs", "Trend": 562},
+          { "label": "45 - 54yrs", "Trend": 622},
+          { "label": "55 - 64yrs", "Trend": 524},
+          { "label": "65yrs +", "Trend": 373}
+        ]
+      },
+      {
+        "label": "Reason3",
+        "ageGroupLabel": "Males - Exceeded Guideline of 10 Drinks in a Week",
+        "data": [
+          { "label": "15 - 17yrs", "Trend": 3},
+          { "label": "18 - 24yrs", "Trend": 189},
+          { "label": "25 - 34yrs", "Trend": 431},
+          { "label": "35 - 44yrs", "Trend": 444},
+          { "label": "45 - 54yrs", "Trend": 490},
+          { "label": "55 - 64yrs", "Trend": 457},
+          { "label": "65yrs +", "Trend": 517}
+        ]
+      },
+      {
+        "label": "Reason4",
+        "ageGroupLabel": "Males - Exceeded Guideline of 5 Drinks in a Given Day",
+        "data": [
+          { "label": "15 - 17yrs", "Trend": 8},
+          { "label": "18 - 24yrs", "Trend": 255},
+          { "label": "25 - 34yrs", "Trend": 530},
+          { "label": "35 - 44yrs", "Trend": 399},
+          { "label": "45 - 54yrs", "Trend": 413},
+          { "label": "55 - 64yrs", "Trend": 350},
+          { "label": "65yrs +", "Trend": 298}
+        ]
+      },
+      {
+        "label": "Reason5",
+        "ageGroupLabel": "Females - Exceeded Guideline of 10 Drinks in a Week",
+        "data": [
+          { "label": "15 - 17yrs", "Trend": 0},
+          { "label": "18 - 24yrs", "Trend": 109},
+          { "label": "25 - 34yrs", "Trend": 174},
+          { "label": "35 - 44yrs", "Trend": 200},
+          { "label": "45 - 54yrs", "Trend": 259},
+          { "label": "55 - 64yrs", "Trend": 276},
+          { "label": "65yrs +", "Trend": 299}
+        ]
+      },
+      {
+        "label": "Reason6",
+        "ageGroupLabel": "Females - Exceeded Guideline of 5 Drinks in a Given Day",
+        "data": [
+          { "label": "15 - 17yrs", "Trend": 6},
+          { "label": "18 - 24yrs", "Trend": 230},
+          { "label": "25 - 34yrs", "Trend": 242},
+          { "label": "35 - 44yrs", "Trend": 163},
+          { "label": "45 - 54yrs", "Trend": 222},
+          { "label": "55 - 64yrs", "Trend": 173},
+          { "label": "65yrs +", "Trend": 80}
+        ]
+      }
+    ]
+  },
+
+  "Drinking Stressor Estimates": {
+    "datasets": [
+      {
+        "label": "reason1",
+        "ageGroupLabel": "Divorce and Separation",
+        "data": [
+          { "label": "18 to 24yrs", "Trend": 66},
+          { "label": "25 to 34yrs", "Trend": 168},
+          { "label": "34 to 44yrs", "Trend": 190},
+          { "label": "45 to 54yrs", "Trend": 155},
+          { "label": "55 to 64yrs", "Trend": 95},
+          { "label": "65 and over", "Trend": 117}
+        ]
+      },
+      {
+        "label": "reason2",
+        "ageGroupLabel": "Death of Family Member/Friend",
+        "data": [
+          { "label": "18 to 24yrs", "Trend": 224},
+          { "label": "25 to 34yrs", "Trend": 486},
+          { "label": "34 to 44yrs", "Trend": 388},
+          { "label": "45 to 54yrs", "Trend": 436},
+          { "label": "55 to 64yrs", "Trend": 442},
+          { "label": "65 and over", "Trend": 426}
+        ]
+      },
+      {
+        "label": "reason3",
+        "ageGroupLabel": "Serious Illness",
+        "data": [
+          { "label": "18 to 24yrs", "Trend": 180},
+          { "label": "25 to 34yrs", "Trend": 300},
+          { "label": "34 to 44yrs", "Trend": 377},
+          { "label": "45 to 54yrs", "Trend": 365},
+          { "label": "55 to 64yrs", "Trend": 415},
+          { "label": "65 and over", "Trend": 582}
+        ]
+      },
+      {
+        "label": "reason4",
+        "ageGroupLabel": "Serious Accident",
+        "data": [
+          { "label": "18 to 24yrs", "Trend": 75},
+          { "label": "25 to 34yrs", "Trend": 60},
+          { "label": "34 to 44yrs", "Trend": 71},
+          { "label": "45 to 54yrs", "Trend": 50},
+          { "label": "55 to 64yrs", "Trend": 58},
+          { "label": "65 and over", "Trend": 68}
+        ]
+      },
+      {
+        "label": "reason5",
+        "ageGroupLabel": "Alcohol or Drug Problems",
+        "data": [
+          { "label": "18 to 24yrs", "Trend": 102},
+          { "label": "25 to 34yrs", "Trend": 189},
+          { "label": "34 to 44yrs", "Trend": 120},
+          { "label": "45 to 54yrs", "Trend": 125},
+          { "label": "55 to 64yrs", "Trend": 114},
+          { "label": "65 and over", "Trend": 59}
+        ]
+      },
+      {
+        "label": "reason6",
+        "ageGroupLabel": "Mental Illness",
+        "data": [
+          { "label": "18 to 24yrs", "Trend": 416},
+          { "label": "25 to 34yrs", "Trend": 596},
+          { "label": "34 to 44yrs", "Trend": 409},
+          { "label": "45 to 54yrs", "Trend": 487},
+          { "label": "55 to 64yrs", "Trend": 329},
+          { "label": "65 and over", "Trend": 243}
+        ]
+      },
+      {
+        "label": "reason7",
+        "ageGroupLabel": "Serious Disability",
+        "data": [
+          { "label": "18 to 24yrs", "Trend": 53},
+          { "label": "25 to 34yrs", "Trend": 89},
+          { "label": "34 to 44yrs", "Trend": 79},
+          { "label": "45 to 54yrs", "Trend": 140},
+          { "label": "55 to 64yrs", "Trend": 106},
+          { "label": "65 and over", "Trend": 169}
+        ]
+      },
+      {
+        "label": "reason8",
+        "ageGroupLabel": "Unemployment",
+        "data": [
+          { "label": "18 to 24yrs", "Trend": 341},
+          { "label": "25 to 34yrs", "Trend": 482},
+          { "label": "34 to 44yrs", "Trend": 293},
+          { "label": "45 to 54yrs", "Trend": 357},
+          { "label": "55 to 64yrs", "Trend": 318},
+          { "label": "65 and over", "Trend": 138}
+        ]
+      },
+      {
+        "label": "reason9",
+        "ageGroupLabel": "Loss of Job",
+        "data": [
+          { "label": "18 to 24yrs", "Trend": 282},
+          { "label": "25 to 34yrs", "Trend": 444},
+          { "label": "34 to 44yrs", "Trend": 315},
+          { "label": "45 to 54yrs", "Trend": 434},
+          { "label": "55 to 64yrs", "Trend": 276},
+          { "label": "65 and over", "Trend": 153}
+        ]
+      },
+      {
+        "label": "reason10",
+        "ageGroupLabel": "Witness to Violence",
+        "data": [
+          { "label": "18 to 24yrs", "Trend": 38},
+          { "label": "25 to 34yrs", "Trend": 124},
+          { "label": "34 to 44yrs", "Trend": 51},
+          { "label": "45 to 54yrs", "Trend": 50},
+          { "label": "55 to 64yrs", "Trend": 36},
+          { "label": "65 and over", "Trend": 15}
+        ]
+      },
+      {
+        "label": "reason11",
+        "ageGroupLabel": "Abuse or Violent Crime",
+        "data": [
+          { "label": "18 to 24yrs", "Trend": 41},
+          { "label": "25 to 34yrs", "Trend": 79},
+          { "label": "34 to 44yrs", "Trend": 46},
+          { "label": "45 to 54yrs", "Trend": 56},
+          { "label": "55 to 64yrs", "Trend": 24},
+          { "label": "65 and over", "Trend": 17}
+        ]
+      },
+      {
+        "label": "reason12",
+        "ageGroupLabel": "Gambling Problem",
+        "data": [
+          { "label": "18 to 24yrs", "Trend": 7},
+          { "label": "25 to 34yrs", "Trend": 73},
+          { "label": "34 to 44yrs", "Trend": 23},
+          { "label": "45 to 54yrs", "Trend": 42},
+          { "label": "55 to 64yrs", "Trend": 16},
+          { "label": "65 and over", "Trend": 7}
+        ]
+      },
+      {
+        "label": "reason13",
+        "ageGroupLabel": "Bullying/Harassment",
+        "data": [
+          { "label": "18 to 24yrs", "Trend": 165},
+          { "label": "25 to 34yrs", "Trend":265},
+          { "label": "34 to 44yrs", "Trend": 270},
+          { "label": "45 to 54yrs", "Trend": 312},
+          { "label": "55 to 64yrs", "Trend": 224},
+          { "label": "65 and over", "Trend": 96}
+        ]
+      },
+      {
+        "label": "reason14",
+        "ageGroupLabel": "Discrimination",
+        "data": [
+          { "label": "18 to 24yrs", "Trend": 137},
+          { "label": "25 to 34yrs", "Trend": 236},
+          { "label": "34 to 44yrs", "Trend": 130},
+          { "label": "45 to 54yrs", "Trend": 111},
+          { "label": "55 to 64yrs", "Trend": 128},
+          { "label": "65 and over", "Trend": 56}
+        ]
+      },
+      {
+        "label": "reason15",
+        "ageGroupLabel": "Didn't Experience Stressors",
+        "data": [
+          { "label": "18 to 24yrs", "Trend": 1106},
+          { "label": "25 to 34yrs", "Trend": 1990},
+          { "label": "34 to 44yrs", "Trend": 1996},
+          { "label": "45 to 54yrs", "Trend": 1595},
+          { "label": "55 to 64yrs", "Trend": 1597},
+          { "label": "65 and over", "Trend": 2613}
+        ]
+      }
+    ]
+  }
+}

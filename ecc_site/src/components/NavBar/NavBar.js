@@ -1,29 +1,26 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import './NavBar.css';
-import OurLogo from './OurLogo.png';
+import React from 'react';
+import { Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import OurLogo from './OurLogo.png'; // Import your logo image
+import './NavBar.css'; // Import your custom CSS file
 
 const NavBar = () => {
   return (
-    <>
-      <Navbar className="custom-navbar" expand="lg">
-        <Container>
-          <Navbar.Brand href="/home" className="navbar-brand">
-            <img src={OurLogo} alt="Our Logo" className="logo" />
-          </Navbar.Brand>
-          <Nav className="navbar-nav">
-            <Nav.Link href="/Home">Home</Nav.Link>
-            <Nav.Link href="/DataCollection">Help Us</Nav.Link>
-            <Nav.Link href="/UserStories">User Stories</Nav.Link>
-            <Nav.Link href="/Chat">Chatbot</Nav.Link>
-            <Nav.Link href="/Quiz">Do you Know Aussies?</Nav.Link>
-            <Nav.Link href="/Stats">Stats</Nav.Link>
-            <Nav.Link href="/FAQ">FAQ</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
-    </>
+    <Navbar expand="lg" className="custom-navbar">
+      <Navbar.Brand href="/home">
+        <img src={OurLogo} alt="Logo" className="logo" />
+      </Navbar.Brand>
+      <Navbar.Collapse id="basic-navbar-nav">
+  <Nav className="ml-auto">
+          <Nav.Link href="/home" className="nav-link">Home</Nav.Link>
+          <Nav.Link href="/DataCollection" className="nav-link">Help Us</Nav.Link>
+          <Nav.Link href="/UserStories" className="nav-link">User Stories</Nav.Link>
+          <Nav.Link href="/Chat" className="nav-link">Chatbot</Nav.Link>
+          <Nav.Link href="/Quiz" className="nav-link">Do you Know Aussies?</Nav.Link>
+          <Nav.Link href="/Stats" className="nav-link">Stats</Nav.Link>
+          <Nav.Link href="/FAQ" className="nav-link">FAQ</Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
   );
 }
 

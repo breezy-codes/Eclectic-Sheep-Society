@@ -1,0 +1,56 @@
+/* Data Privacy Page Styles */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .data-privacy-title {
+    margin-top: 20px;
+    background-color: rgba(14, 165, 197, 0.8); /* Shaded background color */
+    padding: 10px;
+    border-radius: 10px;
+    width: 80%;
+  }
+  
+  .data-privacy-title h1 {
+    font-size: 2rem;
+    text-align: center;
+    color: white; /* Text color */
+  }
+  
+  .data-privacy-section {
+    width: 80%;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #f8f8f8;
+    text-align: center;
+  }
+  
+  .data-privacy-section p {
+    font-size: 18px;
+    line-height: 2rem;
+    color: #333;
+  }
+  
+  /* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+  .data-privacy-title {
+    width: 100%; /* Full width on mobile */
+  }
+
+  .data-privacy-title h1 {
+    font-size: 1.5rem; /* Slightly smaller font size */
+  }
+
+  .data-privacy-section {
+    width: 100%; /* Full width on mobile */
+    margin: 10px; /* Smaller margin */
+    padding: 10px; /* Smaller padding */
+  }
+
+  .data-privacy-section p {
+    font-size: 16px; /* Slightly smaller font size */
+  }
+}

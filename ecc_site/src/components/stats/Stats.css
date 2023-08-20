@@ -1,4 +1,77 @@
-/*
-dark blue is rgba(14, 165, 197
-light blue is rgba(176, 217, 238
-*/
+/* Stats.css */
+
+/* Styles for the colored box with shadow */
+.graph-container {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Styles for the dropdown container */
+.dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding: 10px;
+  background-color: rgba(176, 217, 238);
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  width: 60%;
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.dropdown label {
+  margin-right: 10px;
+}
+
+.dropdown select {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 3px;
+  background-color: #f0f0f0;
+}
+
+.line-chart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center vertically as well */
+  margin-top: 20px; /* Add margin at the top */
+}
+
+/* Styles for the container box */
+.data-info-container {
+  background-color: rgba(176, 217, 238);
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Styles for the button container */
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.data-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0 10px;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.data-button:hover {
+  background-color: #0056b3;
+}

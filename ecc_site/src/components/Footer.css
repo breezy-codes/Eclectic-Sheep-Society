@@ -20,3 +20,49 @@
   font-size: 0.9rem;
   opacity: 0.7;
 }
+
+
+
+.row-menu {
+  margin-bottom: 10px;
+}
+
+.row-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Display menu items in a row */
+  justify-content: center; /* Center the menu items horizontally */
+}
+
+.row-menu li {
+  margin-right: 20px;
+}
+
+.row-menu a {
+  text-decoration: none;
+  color: white; /* Match the footer text color */
+  font-weight: bold;
+  transition: color 0.3s ease; /* Add a smooth transition effect for color change */
+}
+
+.row-menu a:hover {
+  color: #000000; /* Change color on hover, you can choose your own color */
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 767px) {
+  .row-menu ul {
+    flex-direction: column; /* Display menu items in a column */
+    text-align: center; /* Center align menu items */
+  }
+
+  .row-menu li {
+    margin-right: 0; /* Remove right margin for menu items */
+    margin-bottom: 10px; /* Add bottom margin for spacing */
+  }
+
+  .row-menu {
+    margin-bottom: 20px; /* Increase the bottom margin for overall spacing */
+  }
+}
