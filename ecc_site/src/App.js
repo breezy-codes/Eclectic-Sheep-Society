@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 import Home from "./components/HomePage/Home";
 import Quiz from "./components/quiz/Quiz";
 import Stats from "./components/stats/Stats";
-import Risks from "./components/risks/Risks";
+import DataPrivacy from "./components/DataPrivacy/DataPrivacy";
 import FAQ from "./components/faq/FAQ";
 import UserStories from "./components/UserStories/UserStories";
 import DataCollection from "./components/DataCollection/DataCollection";
@@ -21,9 +21,9 @@ const App = () => {
         <Route path="/userStories" element={<UserStories />} />
         <Route path="/Quiz" element={<Quiz />} />
         <Route path="/DataCollection" element={<DataCollection />} />
-        <Route path="/Risks" element={<Risks />} />
         <Route path="/Stats" element={<Stats />} />
         <Route path="/faq" element={<FAQ />} />
+        <Route path="/DataPrivacy" element={<DataPrivacy />} />
       </Routes>
       <CrisisBox />
       <Footer />

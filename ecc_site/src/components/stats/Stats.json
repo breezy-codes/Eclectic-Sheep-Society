@@ -1,11 +1,50 @@
-[
-    {
-      "question": "What is TalkTipsy?",
-      "answer": "TalkTipsy is a platform designed to..."
-    },
-    {
-      "question": "Why did we do this?",
-      "answer": "To point out problems with alcohol consumption in Australia."
-    }
-  ]
-  
+{
+  "Graph Set 1": {
+    "datasets": [
+      {
+        "label": "18-24",
+        "ageGroupLabel": "18 to 24",
+        "data": [
+          { "label": "2018", "Trend": 1330},
+          { "label": "2019", "Trend": 105},
+          { "label": "2020", "Trend": 1330},
+          { "label": "2021", "Trend": 105}
+        ]
+      },
+      {
+        "label": "26-30",
+        "ageGroupLabel": "26 to 30",
+        "data": [
+          { "label": "2018", "Trend": 1330},
+          { "label": "2019", "Trend": 105},
+          { "label": "2020", "Trend": 1330},
+          { "label": "2021", "Trend": 105}
+        ]
+      }
+    ]
+  },
+  "Graph Set 2": {
+    "datasets": [
+      {
+        "label": "18-24",
+        "ageGroupLabel": "26 to 30",
+        "data": [
+          { "label": "2018", "Trend": 1330},
+          { "label": "2019", "Trend": 105},
+          { "label": "2020", "Trend": 1330},
+          { "label": "2021", "Trend": 105}
+        ]
+      },
+      {
+        "label": "26-30",
+        "ageGroupLabel": "26 to 30",
+        "data": [
+          { "label": "2018", "Trend": 1330},
+          { "label": "2019", "Trend": 105},
+          { "label": "2020", "Trend": 1330},
+          { "label": "2021", "Trend": 105}
+        ]
+      }
+    ]
+  }
+}

@@ -1,4 +1,3 @@
-// Footer.js
 import React from 'react';
 import './Footer.css';
 
@@ -6,6 +5,13 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="content">
+        <div className="row-menu">
+          <ul>
+            <li><a href="/DataPrivacy">Data Privacy</a></li>
+            <li><a href="/faq">FAQ</a></li>
+            <li><a href="/Stats">Stats</a></li>
+          </ul>
+        </div>
         <p className="paragraph">
           Untold Story, created as part of the 2023 GovHack competition by the Eclectic Sheep Society.
         </p>
