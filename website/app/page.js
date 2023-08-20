@@ -1,18 +1,15 @@
-import styles from './page.module.css'
-import NavBar from './components/NavBar';
-import CrisisBox from './components/CrisisBox';
-import Footer from './components/Footer';
-import HomePage from './components/HomePage';
+import MainNav from "../components/nav";
+import CrisisBox from "../components/CrisisBox";
+import Footer from "../components/Footer";
+import HomePage from "../components/home";
 
 export default function Home() {
   return (
     <div>
-      <NavBar />
+      <MainNav />
       <HomePage />
       <CrisisBox />
       <Footer />
     </div>
-
-  )
+  );
 }
-

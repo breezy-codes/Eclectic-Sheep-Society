@@ -1,9 +1,5 @@
-import Home from "../components/HomePage"
-import Home from "./styles/Home.css"
+import HomePage from "../../components/home";
 
-export default function HomePage() {
-  return (
-      <Home />
-  )
+export default function Page() {
+  return <HomePage />;
 }
-

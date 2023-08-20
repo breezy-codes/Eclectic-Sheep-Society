@@ -1,10 +1,10 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import "../../styles/home.css";
-import { getPollStats } from "../firebase/firestore/getData";
+import "../styles/home.css";
+import getPollStats from "../firebase/firestore/getData";
 import { writePollData } from "../firebase/firestore/addData";
 
-const Home = () => {
+const Page = () => {
   const [pollAnswer, setPollAnswer] = useState(null);
   const [yesVotes, setYesVotes] = useState(0);
   const [noVotes, setNoVotes] = useState(0);
@@ -54,7 +54,7 @@ const Home = () => {
     setShowQuizResult(true);
   };
 
-  const correctAnswer = '9 to 10 Standard Drinks';
+  const correctAnswer = "9 to 10 Standard Drinks";
 
   return (
     <div className="home-content">
@@ -146,25 +146,60 @@ const Home = () => {
         <div className="Alcohol-Quiz">
           <h2>How much alcohol consumption in a single week is safe?</h2>
           <div className="quiz-options">
-            <div className={`quiz-option ${quizAnswer === 'none' ? 'selected' : ''}`} onClick={() => handleQuizAnswer('none')}>
+            <div
+              className={`quiz-option ${
+                quizAnswer === "none" ? "selected" : ""
+              }`}
+              onClick={() => handleQuizAnswer("none")}
+            >
               None
             </div>
-            <div className={`quiz-option ${quizAnswer === '1 to 3 Standard Drinks' ? 'selected' : ''}`} onClick={() => handleQuizAnswer('1 to 3 Standard Drinks')}>
+            <div
+              className={`quiz-option ${
+                quizAnswer === "1 to 3 Standard Drinks" ? "selected" : ""
+              }`}
+              onClick={() => handleQuizAnswer("1 to 3 Standard Drinks")}
+            >
               1 to 3 Standard Drinks
             </div>
-            <div className={`quiz-option ${quizAnswer === '4 to 5 Standard Drinks' ? 'selected' : ''}`} onClick={() => handleQuizAnswer('4 to 5 Standard Drinks')}>
+            <div
+              className={`quiz-option ${
+                quizAnswer === "4 to 5 Standard Drinks" ? "selected" : ""
+              }`}
+              onClick={() => handleQuizAnswer("4 to 5 Standard Drinks")}
+            >
               4 to 5 Standard Drinks
             </div>
-            <div className={`quiz-option ${quizAnswer === '6 to 8 Standard Drinks' ? 'selected' : ''}`} onClick={() => handleQuizAnswer('6 to 8 Standard Drinks')}>
+            <div
+              className={`quiz-option ${
+                quizAnswer === "6 to 8 Standard Drinks" ? "selected" : ""
+              }`}
+              onClick={() => handleQuizAnswer("6 to 8 Standard Drinks")}
+            >
               6 to 8 Standard Drinks
             </div>
-            <div className={`quiz-option ${quizAnswer === '9 to 10 Standard Drinks' ? 'selected' : ''}`} onClick={() => handleQuizAnswer('9 to 10 Standard Drinks')}>
+            <div
+              className={`quiz-option ${
+                quizAnswer === "9 to 10 Standard Drinks" ? "selected" : ""
+              }`}
+              onClick={() => handleQuizAnswer("9 to 10 Standard Drinks")}
+            >
               9 to 10 Standard Drinks
             </div>
-            <div className={`quiz-option ${quizAnswer === '11 to 15 Standard Drinks' ? 'selected' : ''}`} onClick={() => handleQuizAnswer('11 to 15 Standard Drinks')}>
+            <div
+              className={`quiz-option ${
+                quizAnswer === "11 to 15 Standard Drinks" ? "selected" : ""
+              }`}
+              onClick={() => handleQuizAnswer("11 to 15 Standard Drinks")}
+            >
               11 to 15 Standard Drinks
             </div>
-            <div className={`quiz-option ${quizAnswer === '16 or more Standard Drinks' ? 'selected' : ''}`} onClick={() => handleQuizAnswer('16 or more Standard Drinks')}>
+            <div
+              className={`quiz-option ${
+                quizAnswer === "16 or more Standard Drinks" ? "selected" : ""
+              }`}
+              onClick={() => handleQuizAnswer("16 or more Standard Drinks")}
+            >
               16 or more Standard Drinks
             </div>
           </div>
@@ -195,4 +230,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Page;
