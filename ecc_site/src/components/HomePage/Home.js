@@ -246,11 +246,6 @@ const Home = () => {
           </p>
         </div>
       </div>
-
-      <div className="info-div">
-        <h1>Information Section 2</h1>
-        <p>Placeholder text for information section 2.</p>
-      </div>
     </div>
   );
 };
