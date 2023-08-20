@@ -71,8 +71,8 @@ const StatsComponent = () => {
             and information from data.gov.au. The data is taken from the following sources:
           </p>
           <div class="button-container">
-            <a href="#" class="data-button">Website 1</a>
-            <a href="#" class="data-button">Website 2</a>
+            <a href="https://www.abs.gov.au/statistics/health/health-conditions-and-risks/apparent-consumption-alcohol-australia" class="data-button">abs.gov.au</a>
+            <a href="https://www.aihw.gov.au/reports-data/behaviours-risk-factors/alcohol/overview" class="data-button">aihw.gov.au</a>
           </div>
         </div>
 
