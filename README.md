@@ -1,5 +1,5 @@
 # UNTOLDSTORY.COM.AU
-
+![Home Page](Images/HomePage.png)
 ## The Data Story
 
 The data landscape on alcohol addiction in Australia, gathered from sources like Data.gov.au, AIHW, ABS, and others, has long been constrained by its focus on external indicators such as hospital admissions, doctor visits, and law enforcement reports. While the National Health Survey did attempt to collect more personal information like height, weight, BMI, and pre-existing health conditions, its sample size of just 11,000 is glaringly inadequate for a country with a population of over 25 million. This limitation means that the dataset tends to surface only in the direst of circumstances – late stages of liver cancer, fatalities, and other tragic outcomes.
@@ -26,13 +26,21 @@ The platform features an LLM chatbot pre-loaded with links from ABS and AIHW dat
 
 Users can share their story about alcohol addiction, whether personal or about a loved one. A special filter ensures that the user's input is depersonalized, maintaining anonymity and protecting privacy. These individual stories, filled with vital insights into alcohol addiction, are added to a relational database. This innovative approach contributes to creating a comprehensive snapshot of Australian Alcohol addiction, blending personal experiences with a broader understanding.
 
+![Home Page](Images/UserStories.png)
+
 ### Interactive Snapshot into Australian Alcohol Addiction
 
 The platform includes a page where users can view a snapshot of the current state of alcoholism addiction in Australia by answering quiz questions. This information is drawn from open-source government databases, allowing real-time insight into the issue. It's an innovative way to connect users with credible information and broaden understanding.
+<div align="center">
+  <img src="Images/InteractiveQA.png" alt="Interactive Quiz" width="400" style="margin: 0 20px;" />
+  <img src="Images/InteractiveAnswers.png" alt="Interactive Quiz" width="400" />
+</div>
 
 ### Live Statistics
 
 Users can view live graphs correlating to their own age groups and genders by selecting options from the drop-down menus. These statistics showcase the average amount of alcohol consumed, the favorite types of alcohol, and the most common triggers. By presenting this information in an accessible and personalized way, users may feel connected to a digital community they didn't know about, and possibly gain a better understanding of where they stand in terms of the data. It's another way this platform is innovating user engagement with real-world issues.
+
+![Interactive Stats Graph](Images/Statistics.png)
 
 ### Sliding Graph
 
