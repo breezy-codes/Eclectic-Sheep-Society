@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Eclectic-Sheep-Society/static/css/main.86769482.css",
-    "main.js": "/Eclectic-Sheep-Society/static/js/main.d94be6a4.js",
+    "main.js": "/Eclectic-Sheep-Society/static/js/main.2e56409c.js",
     "static/media/OurLogo.png": "/Eclectic-Sheep-Society/static/media/OurLogo.3c6c6d7b69705161c4dc.png",
     "index.html": "/Eclectic-Sheep-Society/index.html",
     "main.86769482.css.map": "/Eclectic-Sheep-Society/static/css/main.86769482.css.map",
-    "main.d94be6a4.js.map": "/Eclectic-Sheep-Society/static/js/main.d94be6a4.js.map"
+    "main.2e56409c.js.map": "/Eclectic-Sheep-Society/static/js/main.2e56409c.js.map"
   },
   "entrypoints": [
     "static/css/main.86769482.css",
-    "static/js/main.d94be6a4.js"
+    "static/js/main.2e56409c.js"
   ]
 }
