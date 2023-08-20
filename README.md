@@ -42,12 +42,6 @@ Users can view live graphs correlating to their own age groups and genders by se
 
 ![Interactive Stats Graph](Images/Statistics.png)
 
-### Sliding Graph
-
-Users will have access to an interactive sliding graph that measures the risk of developing liver cirrhosis based on the amount of drinks consumed. By moving the slider to represent the alcohol consumed per week, users can see the risk of alcohol-attributable mortality change, depending on their age, gender, and weekly consumption.
-
-This innovative feature not only personalizes the information but also contributes to a growing database. The more input received from users, the more accurately the risk can be predicted. However, it's worth noting that at this stage, proper information on mortality is lacking, as many fatalities related to alcohol are recorded differently due to alcohol being a secondary cause (e.g., coronary diseases, drink driving, etc.).
-
 ### Anonymity, Privacy, and Security
 
 The user will be authenticated through Firebase using only an email and password, with email verification completed via a link sent to the user's address. This measure is implemented to ensure data integrity. A data usage statement and user consent are implemented on a separate page, advising users that the data will not identify them in any way and will only be used for the purposes of research. It will be provided in a summarized format to policymakers and health practitioners. The filter for the user story and the chatbot hasn't been put in place yet but will be a part of Gen2. The user story submission will go live once the cybersecurity measures are implemented to sanitize user input against malicious injections. These steps not only maintain a secure and trustworthy platform but also ensure transparency with users regarding how their information is used, respecting privacy and fostering trust.
