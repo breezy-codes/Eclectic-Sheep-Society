@@ -60,6 +60,8 @@ Alcohol is just the start. The platform's design and structure allow for scalabi
 
 Keeping the data within Australia is a priority for the platform, ensuring that the insights and information gathered are utilized to make Australia a better place. Rather than outsourcing or relying on overseas data handling, the platform is committed to national data governance.
 
+![Interactive Stats Graph](Images/DataPrivacy.png)
+
 ## About Us: Eclectic Sheep Society
 
 The Eclectic Sheep Society is more than just a team; it's a vibrant community of energetic, highly motivated individuals who crave positive change in the world. Hailing from all walks of life and spanning across three Australian states and India, we truly embody the definition of eclectic.
