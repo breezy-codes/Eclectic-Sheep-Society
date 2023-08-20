@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Eclectic-Sheep-Society/static/css/main.86769482.css",
+    "main.js": "/Eclectic-Sheep-Society/static/js/main.dd305be2.js",
+    "static/media/OurLogo.png": "/Eclectic-Sheep-Society/static/media/OurLogo.3c6c6d7b69705161c4dc.png",
+    "index.html": "/Eclectic-Sheep-Society/index.html",
+    "main.86769482.css.map": "/Eclectic-Sheep-Society/static/css/main.86769482.css.map",
+    "main.dd305be2.js.map": "/Eclectic-Sheep-Society/static/js/main.dd305be2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86769482.css",
+    "static/js/main.dd305be2.js"
+  ]
+}
