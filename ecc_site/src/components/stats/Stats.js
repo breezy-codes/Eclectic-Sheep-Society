@@ -23,7 +23,7 @@ const GraphSet = ({ graphSet }) => {
     <div className="graph-container">
       <h2>{graphSet.label}</h2>
       <div className="dropdown">
-        <label>Select Age Group: </label>
+        <label>Select a data set: </label>
         <select value={selectedAgeGroup} onChange={handleChangeAgeGroup}>
           {ageGroups.map((ageGroup) => (
             <option key={ageGroup} value={ageGroup}>
@@ -65,14 +65,27 @@ const StatsComponent = () => {
   return (
     <div className="content">
       <h1>The current Government Statistics</h1>
-      <p>Taken from abs.gov.au and data.gov.au</p>
-      {graphSets.map(([graphSetName, graphSetData]) => (
-        <GraphSet
-          key={graphSetName}
-          graphSet={{ label: graphSetName, ...graphSetData }} // Pass label as well
-        />
-      ))}
+      <div className="Data-Taken-From">
+        <div class="data-info-container">
+          <p>For the graphs we have collected data from the Australian Bureau of Statistics
+            and information from data.gov.au. The data is taken from the following sources:
+          </p>
+          <div class="button-container">
+            <a href="#" class="data-button">Website 1</a>
+            <a href="#" class="data-button">Website 2</a>
+          </div>
+        </div>
+
     </div>
+      {
+    graphSets.map(([graphSetName, graphSetData]) => (
+      <GraphSet
+        key={graphSetName}
+        graphSet={{ label: graphSetName, ...graphSetData }} // Pass label as well
+      />
+    ))
+  }
+    </div >
   );
 };
 
